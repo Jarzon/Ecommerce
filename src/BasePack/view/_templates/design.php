@@ -10,10 +10,7 @@
         <?= $this->section('css') ?>
 	</head>
 	<body>
-
-        <nav>
-            
-        </nav>
+        <?= $this->insert('sections/menu', 'BasePack')?>
 
         <main>
             <?= $this->section('default') ?>

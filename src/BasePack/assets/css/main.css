@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+    color: #333;
+}
+
+h1 {
+    font-size: 25px;
+    margin: 5px;
+}
+
+a, a:link, a:active, a:visited, a:hover  {
+    text-decoration: none;
+    color: #413f99;
+}
+
+header {
+    padding: 5px 40px;
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 75px;
+}
+
+main {
+    padding: 10px 40px;
+    max-width: 1300px;
+    margin: 0 auto;
+    min-height: 50%;
+    display: block;
+}
+
+#logo {
+    padding: 0 0 0 20px;
+    float: left;
+}
+
+#logo img {
+    height: 75px;
+}
+
+footer {
+    padding: 10px;
+    font-size: 17px;
+    clear: both;
+}
+
+.error, .notification {
+    padding: 10px 50px 10px;
+    margin: 10px 0;
+    color: #fff;
+    font-size: 19px;
+    border-radius: 5px;
+}
+
+.notification {
+    border: 1px solid #70cc87;
+    background-color: #458055;
+}
+
+.error {
+    border: 1px solid rgba(255, 101, 110, 0.75);
+    background-color: #ff656e;
+}

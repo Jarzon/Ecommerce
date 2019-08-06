@@ -1,0 +1,40 @@
+@media all and (max-width: 960px) {
+    header {
+        padding: 0 5px;
+    }
+
+    nav ul li {
+        width: 115px;
+    }
+
+    nav {
+        font-size: 18px;
+    }
+
+    main {
+        padding: 1px;
+    }
+
+    textarea {
+        width: 75%;
+    }
+}
+
+@media all and (max-width: 800px) {
+    nav {
+        float: none;
+        margin: 0 auto;
+        width: 460px;
+    }
+}
+
+@media all and (max-width: 460px) {
+    nav ul li {
+        width: 66px;
+    }
+
+    nav {
+        font-size: 12px;
+        width: 265px;
+    }
+}

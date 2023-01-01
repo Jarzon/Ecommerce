@@ -18,6 +18,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "primgulp": "^0.8.17"
+    "primgulp": "^1.0.0"
   }
 }
